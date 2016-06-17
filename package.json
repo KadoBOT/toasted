@@ -1,0 +1,33 @@
+{
+  "name": "toasted",
+  "version": "1.0.0",
+  "description": "Simple and Easy Toast Notifications for React",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KadoBOT/toasted.git"
+  },
+  "keywords": [
+    "React",
+    "Toast",
+    "Toasty",
+    "Notification",
+    "rtoasty"
+  ],
+  "author": "Ricardo \"Kado\" Ambrogi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KadoBOT/toasted/issues"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+      "react": "*",
+      "react-dom": "*"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "homepage": "https://github.com/KadoBOT/toasted#readme",
+  "_id": "toasted@1.0.0",
+  "_from": "toasted@"
+}
