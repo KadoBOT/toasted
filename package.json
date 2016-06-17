@@ -16,7 +16,10 @@
     "Toast",
     "Toasty",
     "Notification",
-    "rtoasty"
+    "toasted"
+  ],
+  "files": [
+     "dist"
   ],
   "author": "Ricardo \"Kado\" Ambrogi",
   "license": "MIT",
