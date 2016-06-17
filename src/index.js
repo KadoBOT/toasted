@@ -26,4 +26,4 @@ const Toasted = (children, className = 'info', timeout = 5000) => {
     }, timeout - 50)
 }
 
-export default Toasty
+export default Toasted
