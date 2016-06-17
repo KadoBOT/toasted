@@ -1,9 +1,12 @@
 {
   "name": "toasted",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple and Easy Toast Notifications for React",
-  "main": "index.js",
-  "scripts": {},
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "npm run build"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/KadoBOT/toasted.git"
@@ -22,10 +25,13 @@
   },
   "readmeFilename": "README.md",
   "dependencies": {
-      "react": "*",
-      "react-dom": "*"
+    "react": "*",
+    "react-dom": "*"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  },
   "optionalDependencies": {},
   "homepage": "https://github.com/KadoBOT/toasted#readme",
   "_id": "toasted@1.0.0",
