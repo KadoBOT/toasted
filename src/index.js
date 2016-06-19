@@ -117,7 +117,6 @@ style.appendChild(document.createTextNode(css))
 //position should respect the order VERTICAL first HORIZONTAL second. IE: top left or bottom right
 //timeout can be any number in milliseconds. 5000 is 5 seconds
 //if true, OnTop displays new toats above the last one
-
 const Toasted = (children, type = 'info', position = 'bottom center', timeout = 5000, onTop = false) => {
 
   let duration = timeout/1000
