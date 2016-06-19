@@ -69,8 +69,12 @@ const css = `@keyframes bottom {
 }
 
 .right{
-  right: 50px;
+  right: 10px;
   width: 225px;
+}
+
+.fullWidth{
+    width: 100%;
 }
 
 #toasted{
