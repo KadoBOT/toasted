@@ -1,3 +1,6 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+
 const style = document.createElement('style')
 
 //You can customize the toast CSS here
