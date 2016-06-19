@@ -139,13 +139,13 @@ const Toasted = (children, type = 'info', position = 'bottom center', timeout = 
 
   if(elementExists) {
     elementExists.appendChild(node)
-    render(<Tstr /> , node)
+    ReactDOM.render(<Tstr /> , node)
   } else {
     document.getElementsByTagName('head')[0].appendChild(style)
 
     document.body.appendChild(ul)
     ul.appendChild(node)
-    render(<Tstr /> , node)
+    ReactDOM.render(<Tstr /> , node)
   }
 
   setTimeout(() => {
