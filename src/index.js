@@ -85,10 +85,12 @@ const css = `@keyframes bottom {
   opacity: 1;
   flex-direction: column;
   list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .toasted {
-  width: 100%;
   padding: 15px;
   color: white;
   font-weight: bold;
@@ -96,7 +98,7 @@ const css = `@keyframes bottom {
   -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
-  margin-bottom: 10px;
+  margin: 10px;
 }
 
 .success{
