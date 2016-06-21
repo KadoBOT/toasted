@@ -75,6 +75,7 @@ const css = `@keyframes bottom {
 
 .fullWidth{
     width: 100%;
+    left: 0;
 }
 
 #toasted{
